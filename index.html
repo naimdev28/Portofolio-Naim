@@ -6,70 +6,105 @@
     <title>Portofolio Naim</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-    <div class="profile">
-        <img src="img/berukv2.jpeg" alt="Foto Profil">
-        <h1>Muhammad Ainun Naim</h1>
-    </div>
+    <!-- NAVBAR -->
+    <header class="navbar fade-down">
+        <div class="logo">N A I M</div>
+        <nav>
+            <a href="#about">Tentang</a>
+            <a href="#skills">Skill</a>
+            <a href="#projects">Projek</a>
+            <a href="#contact">Kontak</a>
+        </nav>
+    </header>
 
-    <section class="card">
-        <h2>Tentang Saya</h2>
-        <p>
-            Haloo,nama saya Muhammad Ainun Naim,saya sekolah di SMK Citra Negara,
-            <br>saya kelas 10 dan jurusan yang saya pilih ada PPLG (Pengembangan Perangkat Lunak dan Game),
-            <br>saya masih belajar dan saya ingin mempelajari Backend dan Frontend
-        </p>
+    <!-- HERO -->
+    <section class="hero">
+        <div class="hero-text fade-left">
+            <p class="hello">Halo, saya</p>
+            <h1 class="name">Muhammad Ainun Naim</h1>
+            <h3 class="role">Murid SMK Citra Negara</h3>
+
+            <div class="contact-hero">
+                <p></p>
+                <p></p>
+            </div>
+        </div>
+
+        <div class="hero-photo fade-right">
+            <img src="img/berukv2.jpeg" alt="Foto Profil">
+        </div>
     </section>
 
-    <section class="card">
-        <h2>Keahlian</h2>
-        <ul>
-            <li>HTML Dasar</li>
-            <li>CSS Dasar</li>
-            <li>PHP Dasar</li>
-        </ul>
+    <!-- ABOUT + SKILL + KONTAK -->
+    <section class="info-section">
+
+        <!-- Tentang Saya (FULL WIDTH) -->
+        <div class="info-card fade-up" id="about">
+            <h2>Tentang Saya</h2>
+            <p>
+                Saya Naim, siswa SMK Citra Negara jurusan PPLG.
+                Sedang belajar HTML, CSS, dan PHP untuk menjadi Web Developer.
+                Saya tertarik pada Frontend dan Backend Development.
+            </p>
+        </div>
+
+        <!-- Skill + Kontak (2 kolom) -->
+        <div class="bottom-info">
+
+            <div class="info-card fade-up" id="skills">
+                <h2>Keahlian</h2>
+                <ul>
+                    <li>HTML Dasar</li>
+                    <li>CSS Dasar</li>
+                    <li>PHP Dasar</li>
+                </ul>
+            </div>
+
+            <div class="info-card fade-up" id="contact">
+                <h2>Kontak</h2>
+                <p>WhatsApp: 0856-9339-3643</p>
+                <p>Email: naimkeren28@gmail.com</p>
+                <p>Instagram: <a href="https://www.instagram.com/imm.yess_/">imm.yess_</a></p>
+                <p>Github: <a href="https://github.com/naimdev28">naimdev28</a></p>
+            </div>
+
+        </div>
     </section>
 
-    <section class="card">
+    <!-- PROJECTS -->
+    <section class="card projects-card fade-up" id="projects">
         <h2>Projek</h2>
 
         <div class="projects">
             <div class="project-item">
-                <img src="img/loginlagi.png" alt="Projek 1">
-                <p>Membuat halaman Login menggunakan HTML dan CSS</p>
+                <img src="img/loginlagi.png">
+                <p>Halaman Login HTML & CSS</p>
             </div>
 
             <div class="project-item">
-                <img src="img/keropi.jpeg" alt="Projek 2">
-                <p>Membuat karakter keropi CSS dan sedikit HMTL</p>
+                <img src="img/keropi.jpeg">
+                <p>Membuat karakter Keropi</p>
             </div>
 
             <div class="project-item">
-                <img src="img/tokpedd.jpeg" alt="Projek 3">
-                <p>Membuat Register Toko Online menggunakan HTML dan CSS</p>
+                <img src="img/tokpedd.jpeg">
+                <p>Register Toko Online</p>
             </div>
 
             <div class="project-item">
-                <img src="img/php.png" alt="Projek 3">
-                <p>Membuat Database menggunakan PHP</p>
+                <img src="img/php.png">
+                <p>Database dengan PHP</p>
             </div>
         </div>
     </section>
 
-    <section class="card">
-        <h2>Kontak</h2>
-        <p>Email: naimkeren28@gmail.com</p>
-        <p>Instagram: imm.yess_</p>
-        <p>Github: niamdev28</p>
-    </section>
-
-    <footer>
-        2025 Naimhehe Tugas Ujian Praktik PPLG
+    <!-- FOOTER -->
+    <footer class="fade-up">
+        © 2025 Naim – Portofolio PPLG
     </footer>
 
 </body>
 </html>
-
-
-
